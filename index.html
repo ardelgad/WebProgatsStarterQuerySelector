@@ -93,15 +93,14 @@
 
         // 5. Completa el código para cambiar el logo del gato por el logo ubicado en img/logo-2.jfif
 
-        document.getElementsByClassName(".header--logo").src="img/logo-2.jfif"; 
-
+        document.getElementsByClassName("header--logo")[0].src = "img/logo-2.jfif";
+        
         // 6. Investiga como cambiar el color de fondo del body a través de la propiedad  backGroundColor. Investiga cómo cambiar el color de fondo al valor de la variable "nuevoColor".
 
-        document.querySelector("body").style.backgroundColor = "lightgrey";
-
-        document.querySelector("body").style.backgroundColor = ;
+        document.querySelector("body").style.backgroundColor = "yellow";
 
         let nuevoColor = "aliceblue";
+        document.querySelector("body").style.backgroundColor = nuevoColor;
 
     </script>
 
