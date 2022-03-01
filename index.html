@@ -31,7 +31,7 @@
             <p class="members--role">Fundadora</p>
         </article>
         <article class="members--card card__veronica">
-            <h3 class="members--name">Verónica</h3>
+            <h3 id="veronica" class="members--name">Verónica</h3>
             <p class="members--role">Voluntaria</p>
         </article>
         <article class="members--card card__edurne">
@@ -82,24 +82,26 @@
 
         // 2. Completa el código para cambiar el título h1 por "SuperProGats"
 
-        // document.querySelector("h1")
+        console.log("Super" + document.querySelector("h1").textContent);
 
         // 3. Completa el código para mostrar por consola el contenido del segundo h3. Por la consola debe aparecer "Verónica"
 
-        // console.log(document.querySelector(""));
+        console.log(document.querySelector("#veronica").textContent);
 
         // 4. Completa el código para mostrar por consola el valor del atributo "href" del enlace del footer. Debería aparecer "https://www.progatslagarriga.com"
+        console.log(document.querySelector(".footer--link").getAttribute("href"));
 
         // 5. Completa el código para cambiar el logo del gato por el logo ubicado en img/logo-2.jfif
 
-        // document.querySelector("");
+        document.getElementsByClassName(".header--logo").src="img/logo-2.jfif"; 
 
         // 6. Investiga como cambiar el color de fondo del body a través de la propiedad  backGroundColor. Investiga cómo cambiar el color de fondo al valor de la variable "nuevoColor".
 
+        document.querySelector("body").style.backgroundColor = "lightgrey";
+
+        document.querySelector("body").style.backgroundColor = ;
+
         let nuevoColor = "aliceblue";
-
-        // document.querySelector("")
-
 
     </script>
 
